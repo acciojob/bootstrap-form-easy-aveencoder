@@ -17,16 +17,9 @@
       padding: 0;
       box-sizing: border-box;
     }
-
-    .include {
-      height: 70vh;
-      width: 60vw;
-      margin: auto;
-      margin-top: 4.5%;
-      padding: auto;
-      background-color: white;
+     form{
       box-shadow: 0px 0px 15px black;
-    }
+     }
   </style>
 </head>
 
@@ -39,9 +32,9 @@
     </div>
 
     <section class="container">
-      <form class="row g-3 needs-validation" novalidate>
+      <form class="row g-3 needs-validation py-3" novalidate>
         <div class="col-md-4">
-          <label for="validationCustom01" class="form-label" id="first-name-input">First Name</label>
+          <label for="first-name-input" class="form-label" id="first-name-input">First Name</label>
           <input type="text" class="form-control" id="validationCustom01" value="" required>
           <div class="valid-feedback">
             First name required!
@@ -73,7 +66,7 @@
           </div>
         </div>
         <div class="col-md-3">
-          <label for="validationCustom04" class="form-label">Graduation Year</label>
+          <label for="grad-year-select" class="form-label">Graduation Year</label>
           <select class="form-select" id="validationCustom04" required>
             <option selected disabled value="">Choose...</option>
             <option value="2020">2020</option>
